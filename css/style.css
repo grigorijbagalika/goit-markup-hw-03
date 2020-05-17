@@ -97,6 +97,8 @@ button {
 }
 
 .section {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17px;
@@ -136,6 +138,7 @@ button {
 /* примущества */
 
 .advantage {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
 }
