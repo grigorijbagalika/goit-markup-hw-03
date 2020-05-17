@@ -19,7 +19,17 @@ button {
   font-family: inherit;
 }
 
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  background-color: #ffffff;
+  outline: 2px solid tomato;
+}
+
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -71,12 +81,18 @@ button {
 
 /* main */
 
+.hero {
+  background-color: #cccccc;
+  text-align: center;
+}
+
 .hero-text {
+  margin-top: 0;
+  margin-bottom: 46px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -89,6 +105,8 @@ button {
   color: var(--primary-text-color);
 }
 .section-title {
+  margin-top: 0;
+  margin-bottom: 10;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -96,6 +114,8 @@ button {
   text-transform: uppercase;
 }
 .section-text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -111,6 +131,13 @@ button {
   border-radius: 4px;
   padding: 10px 32px;
   text-align: center;
+}
+
+/* примущества */
+
+.advantage {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* чем мы занимаемся */
