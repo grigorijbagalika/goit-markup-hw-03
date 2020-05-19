@@ -29,13 +29,8 @@ button {
   font-family: inherit;
 }
 
-.conteiner {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 94px;
-  width: 1200px;
-  /* background-color: #ffffff; */
-  outline: 2px solid tomato;
+.invis-h {
+  display: none;
 }
 
 .list {
@@ -44,16 +39,36 @@ button {
   list-style: none;
 }
 
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin-bottom: 94px; */
+  width: 1200px;
+  /* background-color: #ffffff; */
+  outline: 2px solid tomato;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* цвет основготекста #212121 */
 /* вторичный цекст цвета #757575 */
 /* акцент #2196F3 */
 /* белый #FFFFFF */
 
 /* site-nav */
+
 .logo {
   color: var(--accent);
 }
 .logo-text {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -63,7 +78,24 @@ button {
   color: black;
 }
 
+.site-nav {
+  display: flex;
+  margin-left: 84px;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+  /* background-color: tomato; */
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -77,6 +109,15 @@ button {
 
 .site-nav .link.current {
   color: var(--accent);
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav .item + .item {
+  margin-left: 30px;
 }
 
 .auth-nav .link {
@@ -94,7 +135,7 @@ button {
 
 .hero {
   margin-bottom: 94px;
-  background-color: #cccccc;
+  /* background-color: #cccccc; */
   text-align: center;
 }
 
@@ -238,17 +279,23 @@ button {
 /* Портфолио */
 
 .portfolio-title {
+  margin-top: 20px;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  /* background-color: tomato; */
 }
 
 .portfolio-text {
+  margin-top: 4px;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  /* background-color: grey; */
 }
 
 .portfolio-descriprion {

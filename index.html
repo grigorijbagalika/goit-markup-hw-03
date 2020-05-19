@@ -18,19 +18,23 @@
   <body>
     <!--Навигация-->
     <header>
-      <div class="conteiner">
-        <nav>
+      <div class="conteiner main-nav">
+        <nav class="main-nav">
           <a href="/">
             <p class="logo-text"><span class="logo">Web</span> Studio</p>
           </a>
           <ul class="site-nav list">
-            <li><a href="" class="site-nav link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item">
+              <a href="" class="site-nav link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li>
+          <li class="item">
             <img
               src="./image/envelope-logo.svg"
               alt="Logo"
@@ -40,7 +44,7 @@
               >info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="item">
             <img src="./image/Vector.svg" alt="tel" width="10" height="15" /><a
               href="tel:+380961111111"
               class="link"
@@ -51,7 +55,7 @@
       </div>
     </header>
 
-    <div class="conteiner"></div>
+    <!-- <div class="conteiner"></div> -->
 
     <!--Герои-->
     <main>
@@ -64,7 +68,7 @@
 
       <section>
         <div class="conteiner">
-          <h2 class="section">Преимущества</h2>
+          <h2 class="section invis-h">Преимущества</h2>
           <ul class="list">
             <li>
               <img
@@ -345,44 +349,46 @@
     </main>
     <!--Footer-->
     <footer>
-      <div>
-        <a href="/">
-          <p class="logo-text"><span class="logo">Web</span> Studio</p>
-        </a>
-        <address class="adress">
-          г. Киев, пр-т Леси Украинки, 26<br />
-          <a href="mailto:info@example.com">info@example.com </a><br />
-          <a href="tel:+380961111111">+38 096 111 11 11 </a>
-        </address>
-      </div>
-      <div>
-        <b class="footer-text">присоединяйтесь</b>
-        <ul class="list">
-          <li>
-            <a href="#" class="footer-icon" aria-label="Facebook">Facebook</a>
-          </li>
-          <li>
-            <a href="#" class="footer-icon" aria-label="Twitter">Twitter</a>
-          </li>
-          <li>
-            <a href="#" class="footer-icon" aria-label="Instagramm"
-              >Instagramm</a
-            >
-          </li>
-          <li>
-            <a href="#" class="footer-icon" aria-label="LinkedID">LinkedID</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <b class="footer-text">Подпишитесь на рассылку</b>
-        <p>
-          <label>Email</label>
-          <input type="email" name="email" required />
-        </p>
-        <button>
-          Подписаться
-        </button>
+      <div class="conteiner">
+        <div>
+          <a href="/">
+            <p class="logo-text"><span class="logo">Web</span> Studio</p>
+          </a>
+          <address class="adress">
+            г. Киев, пр-т Леси Украинки, 26<br />
+            <a href="mailto:info@example.com">info@example.com </a><br />
+            <a href="tel:+380961111111">+38 096 111 11 11 </a>
+          </address>
+        </div>
+        <div>
+          <b class="footer-text">присоединяйтесь</b>
+          <ul class="list">
+            <li>
+              <a href="#" class="footer-icon" aria-label="Facebook">Facebook</a>
+            </li>
+            <li>
+              <a href="#" class="footer-icon" aria-label="Twitter">Twitter</a>
+            </li>
+            <li>
+              <a href="#" class="footer-icon" aria-label="Instagramm"
+                >Instagramm</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer-icon" aria-label="LinkedID">LinkedID</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <b class="footer-text">Подпишитесь на рассылку</b>
+          <p>
+            <label>Email</label>
+            <input type="email" name="email" required />
+          </p>
+          <button>
+            Подписаться
+          </button>
+        </div>
       </div>
       <p class="low">&#169; 2020 | Developed by GoIT Students</p>
     </footer>
