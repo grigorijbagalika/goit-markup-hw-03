@@ -365,12 +365,12 @@ button {
 .work-flex {
   display: flex;
   flex-wrap: wrap;
-  background-color: teal;
+  /* background-color: teal; */
 }
 
 .work-flex .item {
   width: 370px;
-  background-color: tomato;
+  /* background-color: tomato; */
 
   margin-right: 30px;
   margin-bottom: 30px;
