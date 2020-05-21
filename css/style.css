@@ -39,6 +39,10 @@ button {
   list-style: none;
 }
 
+.image {
+  margin-left: 10px;
+}
+
 .conteiner {
   margin-bottom: 94px;
   margin-left: auto;
