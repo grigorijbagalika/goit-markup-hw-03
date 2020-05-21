@@ -304,6 +304,11 @@ button {
 
 /* footer */
 
+.footer {
+  padding-top: 48px;
+  padding-bottom: 28px;
+}
+
 .footer-flex {
   display: flex;
   align-items: center;
