@@ -62,6 +62,8 @@ button {
 .main-nav {
   display: flex;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* цвет основготекста #212121 */
@@ -287,10 +289,7 @@ button {
 .button-icon:hover {
   color: var(--white);
   background-color: var(--accent);
-/* }
-.centre {
-  margin-bottom: 94px;
-} */
+}
 
 /* clients */
 
