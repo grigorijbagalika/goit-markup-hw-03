@@ -64,6 +64,10 @@ button {
   /* outline: 2px solid tomato; */
 }
 
+.bord {
+  border-bottom: 1px solid #ececec;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -155,7 +159,7 @@ button {
 /* main */
 
 .hero {
-  border-top: 1px solid #ececec;
+  /* border-top: 1px solid #ececec; */
   /* background-color: #cccccc; */
   text-align: center;
 }
