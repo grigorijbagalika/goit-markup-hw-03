@@ -69,7 +69,7 @@ button {
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
-  border-bottom: 1px solid #ececec;
+  /* border-bottom: 1px solid #ececec; */
 }
 
 /* цвет основготекста #212121 */
@@ -155,6 +155,7 @@ button {
 /* main */
 
 .hero {
+  border-top: 1px solid #ececec;
   /* background-color: #cccccc; */
   text-align: center;
 }
