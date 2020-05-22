@@ -325,16 +325,17 @@ button {
 
 .footer-flex {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
-.adress-flex {
+/* .adress-flex {
   margin-right: 69px;
-}
+} */
 
-.sub-flex {
+/* .sub-flex {
   margin-left: auto;
-}
+} */
 
 .s-link {
   display: flex;
@@ -357,6 +358,8 @@ button {
 }
 
 .footer-text {
+  display: inline-block;
+  margin-bottom: 21px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
