@@ -176,6 +176,10 @@ button {
 
 /* преимущества */
 
+.image-feature {
+  margin-bottom: 30px;
+}
+
 .feature-list {
   display: flex;
   flex-wrap: wrap;
@@ -198,7 +202,7 @@ button {
   color: var(--primary-text-color);
 }
 .section-title {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10;
   font-weight: 700;
   font-size: 14px;
@@ -284,8 +288,12 @@ button {
   display: flex;
 }
 
+.image-com {
+  margin-bottom: 30px;
+}
+
 .command-title {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
