@@ -29,13 +29,17 @@ button {
   font-family: inherit;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .link-port {
   display: block;
   text-decoration: none;
-}
-
-.invis-h {
-  display: none;
 }
 
 .list {
